@@ -1,0 +1,317 @@
+
+Action: file_editor create /app/website/portofolio.html --file-text "<!DOCTYPE html>
+<html lang=\"id\">
+<head>
+  <meta charset=\"UTF-8\" />
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+  <title>Original.A — Portofolio</title>
+  <link rel=\"stylesheet\" href=\"style.css\" />
+  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\" />
+</head>
+<body>
+
+  <nav class=\"navbar\">
+    <div class=\"container nav-wrap\">
+      <a href=\"beranda.html\" class=\"logo\">Original.A</a>
+      <ul class=\"nav-menu\">
+        <li><a href=\"beranda.html\">Beranda</a></li>
+        <li><a href=\"layanan.html\">Layanan</a></li>
+        <li><a href=\"harga.html\">Harga</a></li>
+        <li><a href=\"portofolio.html\" class=\"active\">Portofolio</a></li>
+        <li><a href=\"kontak.html\">Kontak</a></li>
+      </ul>
+      <div class=\"nav-actions\">
+        <a href=\"#\" class=\"btn-link\">Masuk</a>
+        <a href=\"#\" class=\"btn btn-primary\">Daftar</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class=\"page-hero\">
+    <div class=\"container\">
+      <h1>Toko-Toko Sukses di Original.A</h1>
+      <p>Mereka sudah membuktikannya, sekarang giliran kamu. Temukan kurasi UMKM terbaik yang telah bertransformasi bersama kami.</p>
+    </div>
+  </section>
+
+  <section style=\"padding-top:20px;\">
+    <div class=\"container\">
+      <div class=\"filter-row\">
+        <button class=\"filter-btn active\">Semua</button>
+        <button class=\"filter-btn\">Makanan &amp; Minuman</button>
+        <button class=\"filter-btn\">Fashion</button>
+        <button class=\"filter-btn\">Kerajinan</button>
+        <button class=\"filter-btn\">Kecantikan</button>
+      </div>
+
+      <div class=\"toko-grid\">
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600\" alt=\"Kopi Nusantara\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Kopi Nusantara</h4>
+                <p class=\"toko-cat\">Makanan &amp; Minuman</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.9</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">24</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">1.2k+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=600\" alt=\"Lini Tenun\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Lini Tenun</h4>
+                <p class=\"toko-cat\">Fashion</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.8</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">45</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">850+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1610701596061-2ecf227e85b2?w=600\" alt=\"Tanah Liat\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Tanah Liat Seru</h4>
+                <p class=\"toko-cat\">Kerajinan</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 5.0</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">12</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">300+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600\" alt=\"Aura Alami\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Aura Alami</h4>
+                <p class=\"toko-cat\">Kecantikan</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.7</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">18</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">2.5k+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=600\" alt=\"Batik Warisan\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Batik Warisan</h4>
+                <p class=\"toko-cat\">Fashion</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.9</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">56</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">1.8k+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600\" alt=\"Rasa Tradisi\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Rasa Tradisi</h4>
+                <p class=\"toko-cat\">Makanan &amp; Minuman</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.6</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">32</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">3.1k+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600\" alt=\"Anyam Indah\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Anyam Indah</h4>
+                <p class=\"toko-cat\">Kerajinan</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.9</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">21</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">540+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600\" alt=\"Serat Alam\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Serat Alam</h4>
+                <p class=\"toko-cat\">Fashion</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 4.8</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">15</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">1.1k+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+
+        <div class=\"toko-card\">
+          <div class=\"toko-img\"><img src=\"https://images.unsplash.com/photo-1481931715705-36f5f6ee0b1b?w=600\" alt=\"Selai Kebun\" /></div>
+          <div class=\"toko-body\">
+            <div class=\"toko-head\">
+              <div>
+                <h4 class=\"toko-name\">Selai Kebun</h4>
+                <p class=\"toko-cat\">Makanan &amp; Minuman</p>
+              </div>
+              <p class=\"toko-rating\"><i class=\"fa-solid fa-star\"></i> 5.0</p>
+            </div>
+            <div class=\"toko-stats\">
+              <div class=\"toko-stat\"><p class=\"stat-label\">PRODUK</p><p class=\"stat-val\">8</p></div>
+              <div class=\"toko-stat\"><p class=\"stat-label\">TERJUAL</p><p class=\"stat-val\">420+</p></div>
+            </div>
+            <button class=\"btn btn-primary\">Kunjungi Toko</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=\"story-section\">
+    <div class=\"container\">
+      <div class=\"section-head left\">
+        <h2 class=\"section-title underline\">Kisah Sukses UMKM</h2>
+      </div>
+
+      <div class=\"story-card\">
+        <div class=\"story-img\"><img src=\"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700\" alt=\"Siti Rahma\" /></div>
+        <div>
+          <p class=\"story-quote-tag\"><i class=\"fa-solid fa-quote-left\"></i> &nbsp; TESTIMONI MERCHANT</p>
+          <p class=\"story-text\">\"Original.A bukan sekadar platform jualan, mereka membantu saya menceritakan filosofi di balik setiap helai kain tenun saya ke kancah nasional.\"</p>
+          <div class=\"story-meta\">
+            <div>
+              <p class=\"name\">Siti Rahma</p>
+              <p class=\"role\">Pendiri Lini Tenun</p>
+            </div>
+            <div class=\"story-stat\">
+              <p class=\"num\">300%</p>
+              <p class=\"lbl\">KENAIKAN OMZET</p>
+            </div>
+            <div class=\"story-stat\">
+              <p class=\"num\">15+</p>
+              <p class=\"lbl\">KOTA JANGKAUAN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class=\"story-card reverse\">
+        <div>
+          <p class=\"story-quote-tag\"><i class=\"fa-solid fa-quote-left\"></i> &nbsp; TESTIMONI MERCHANT</p>
+          <p class=\"story-text\">\"Melalui kurasi ketat Original.A, produk kopi kami naik kelas dari sekadar komoditas menjadi produk premium yang dicari kolektor rasa.\"</p>
+          <div class=\"story-meta\">
+            <div>
+              <p class=\"name\">Bambang Wijaya</p>
+              <p class=\"role\">Pemilik Kopi Nusantara</p>
+            </div>
+            <div class=\"story-stat\">
+              <p class=\"num\">5k+</p>
+              <p class=\"lbl\">PELANGGAN LOYAL</p>
+            </div>
+            <div class=\"story-stat\">
+              <p class=\"num\">Gold</p>
+              <p class=\"lbl\">MERCHANT BADGE</p>
+            </div>
+          </div>
+        </div>
+        <div class=\"story-img\"><img src=\"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=700\" alt=\"Bambang Wijaya\" /></div>
+      </div>
+    </div>
+  </section>
+
+  <div class=\"container\">
+    <div class=\"cta-banner\">
+      <h2>Siap Menjadi Kisah Sukses Berikutnya?</h2>
+      <p>Bergabunglah dengan ekosistem UMKM terkurasi pertama di Indonesia dan mulai perjalanan transformasi brand Anda.</p>
+      <div style=\"display:flex;gap:14px;justify-content:center;flex-wrap:wrap;\">
+        <a href=\"#\" class=\"btn btn-gold\" style=\"background:var(--yellow-200);color:var(--green-900);\">Daftar Sekarang</a>
+        <a href=\"kontak.html\" class=\"btn btn-outline-light\">Konsultasi Gratis</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class=\"container\">
+      <div class=\"footer-grid\">
+        <div class=\"footer-brand\">
+          <div class=\"logo\">Original.A</div>
+          <p>Warisan UMKM Indonesia Terkurasi. Menghubungkan mahakarya lokal dengan apresiasi global.</p>
+        </div>
+        <div class=\"footer-col\">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href=\"beranda.html\">Beranda</a></li>
+            <li><a href=\"layanan.html\">Layanan</a></li>
+            <li><a href=\"portofolio.html\" style=\"color:#C19A2E;\">Portofolio</a></li>
+            <li><a href=\"kontak.html\">Kontak</a></li>
+          </ul>
+        </div>
+        <div class=\"footer-col\">
+          <h4>Dukungan</h4>
+          <ul>
+            <li><a href=\"#\">Tentang Kami</a></li>
+            <li><a href=\"#\">Pusat Bantuan</a></li>
+            <li><a href=\"#\">Kebijakan Privasi</a></li>
+            <li><a href=\"#\">Syarat &amp; Ketentuan</a></li>
+          </ul>
+        </div>
+        <div class=\"footer-col\">
+          <h4>Hubungi Kami</h4>
+          <div class=\"social-icons\">
+            <a href=\"#\"><i class=\"fa-solid fa-globe\"></i></a>
+            <a href=\"#\"><i class=\"fa-regular fa-envelope\"></i></a>
+            <a href=\"#\"><i class=\"fa-solid fa-phone\"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class=\"footer-bottom\">© 2024 Original.A. Warisan UMKM Indonesia Terkurasi.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
+"
+Observation: Create successful: /app/website/portofolio.html
